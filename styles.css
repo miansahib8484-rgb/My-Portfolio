@@ -527,6 +527,37 @@ nav {
     margin-right: 10px;
 }
 
+/* Project Demo Button */
+.project-demo-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: linear-gradient(90deg, var(--cyan), var(--purple));
+    color: var(--dark-bg);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(34, 211, 238, 0.3);
+}
+
+.project-demo-btn:hover {
+    background: linear-gradient(90deg, var(--purple), var(--cyan));
+    transform: translateY(-3px);
+}
+
+.project-demo-btn i {
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-demo-btn:hover i {
+    transform: translate(3px, -3px);
+}
+
 /* Contact section styling */
 #contact-section {
     min-height: auto;
